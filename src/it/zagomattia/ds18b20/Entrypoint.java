@@ -102,7 +102,7 @@ public class Entrypoint {
         Option help = Option.builder("h").required(false).longOpt("help").argName("help").hasArg(false)
                 .desc("Print this help page and exit.").build();
         
-        Option dataFolder = Option.builder("d").required(true).longOpt("data").argName("Data Path").hasArg(true)
+        Option dataFolder = Option.builder("d").required(false).longOpt("data").argName("Data Path").hasArg(true)
                 .desc("Path for the data folder.").build();
         
         Option wait = Option.builder("w").required(false).longOpt("wait-time").argName("Waiting time").hasArg(true)
