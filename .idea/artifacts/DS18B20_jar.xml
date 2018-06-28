@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="DS18B20:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DS18B20_jar</output-path>
+    <root id="root">
+      <element id="archive" name="DS18B20.jar">
+        <element id="module-output" name="DS18B20" />
+      </element>
+      <element id="library" level="module" name="apache-commons-cli-1.4" module-name="DS18B20" />
+      <element id="library" level="module" name="onw-wire-api" module-name="DS18B20" />
+      <element id="library" level="module" name="apache-commons-csv-1.5" module-name="DS18B20" />
+    </root>
+  </artifact>
+</component>
